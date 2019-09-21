@@ -1,0 +1,43 @@
+{
+    "name": "bhuvidya/craft-btn-shortcodes",
+    "description": "Button shortcode support.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "button shortcodes"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bhu Boue vidya",
+            "homepage": "https://github.com/bhuvidya"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "bhuvidya\\btnshortcodes\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Button Shortcodes",
+        "handle": "btn-shortcodes",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "components": {
+            "btnShortcodes": "bhuvidya\\btnshortcodes\\services\\BtnShortcodes"
+        },
+        "class": "bhuvidya\\btnshortcodes\\BtnShortcodes"
+    }
+}
