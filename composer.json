@@ -1,6 +1,6 @@
 {
     "name": "bhuvidya/craft-btn-shortcodes",
-    "description": "Button shortcode support.",
+    "description": "Button shortcode support in Craft v3.",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [
@@ -11,8 +11,8 @@
         "button shortcodes"
     ],
     "support": {
-        "docs": "???",
-        "issues": "???"
+        "docs": "https://github.com/bhuvidya/craft-btn-shortcodes/blob/master/README.md",
+        "issues": "https://github.com/bhuvidya/craft-btn-shortcodes/issues"
     },
     "license": "MIT",
     "authors": [
@@ -34,7 +34,7 @@
         "handle": "btn-shortcodes",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "???",
+        "changelogUrl": "https://raw.githubusercontent.com/bhuvidya/craft-btn-shortcodes/master/CHANGELOG.md",
         "components": {
             "btnShortcodes": "bhuvidya\\btnshortcodes\\services\\BtnShortcodes"
         },
